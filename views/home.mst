@@ -1,0 +1,4 @@
+{{> header}}
+
+<h1>Página Home</h1>
+<p>Usuário Logado: {{userInfo.name}}</p>
