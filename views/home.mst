@@ -2,3 +2,9 @@
 
 <h1>Página Home</h1>
 <p>Usuário Logado: {{userInfo.name}}</p>
+
+{{#posts}}
+    <h3>{{title}}</h3>
+    <p>{{body}}</p>
+    <hr>
+{{/posts}}
